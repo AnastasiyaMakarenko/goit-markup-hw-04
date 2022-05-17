@@ -152,6 +152,7 @@ header {
 
 .header-contact {
   color: var(--secondary-text-color-theme-light);
+  fill: #757575;
   text-decoration: none;
   font-weight: 500;
   font-size: 14px;
@@ -172,6 +173,7 @@ header {
   margin-right: 50px;
 }
 
+
 /*отталкивает иконку контакта от текста*/
 
 .studio-icon{
@@ -183,6 +185,7 @@ header {
 /* ======== START HERO 3 ======== */
 
 .hero-section {
+  max-width: 1600px;
   padding: 200px 0;
   margin: 0 auto;
   background-color: var(--secondary-background-color-dark);
@@ -296,13 +299,17 @@ header {
 /*расположение svg иконок*/
 
 .quality{
-  background-color: #F5F4FA;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
   margin-bottom: 30px;
   border-radius: 4px;
+
+  background-color: #F5F4FA;
+
+  
 }
 
 /* ======== END BENEFITS 4 ======== */
@@ -324,7 +331,7 @@ header {
   margin-right: 30px;
 }
 
-.clients-item {
+.clients-link {
   width: 170px;
   height: 92px;
   border: 1px solid #AFB1B8;
@@ -335,8 +342,8 @@ header {
   fill: #AFB1B8;
 }
 
-.clients-item:hover,
-.clients-item:focus{
+.clients-link:hover,
+.clients-link:focus{
 border: 1px solid #2196F3;
 fill: #2196F3;
 }
@@ -694,8 +701,8 @@ background-color: var(--accent-color);
 
 /*тень при наведении на карточку*/
 
-.project-item:hover,
-.project-item:focus{
+.project-link:hover,
+.project-link:focus{
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
